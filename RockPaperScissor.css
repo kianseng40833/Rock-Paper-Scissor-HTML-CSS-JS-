@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: rgb(245, 191, 126);
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    transition:0.1s;
+}
+
+button:hover{
+    background-color: grey;
+    color:white;
+}
+
+div{
+    width: 100px;
+    height:100px;
+    background-color: yellow;
+    margin:0 auto;
+    border:2px solid black;
+    display: flex; /* Add Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+p.result{
+    color:red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p#computerChoice{
+    text-align: center;
+    margin:0 auto;
+}
